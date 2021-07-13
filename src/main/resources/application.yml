@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    username: guest
+#监听队列类型有两种：一种是简单的simple(FanoutExchange属于简单类型)，一种是直连的direct(DirectExchange属于直连类型)
+    listener:
+#simple/direct
+      type: direct
+#simple/direct
+      direct:
+#默认拒绝关闭,拒绝之后就会进人死信队列
+         default-requeue-rejected: false
+#手动签收设置开启，不然会报消费者没有签收的错误
+         acknowledge-mode: manual
