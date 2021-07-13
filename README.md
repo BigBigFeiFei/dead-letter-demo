@@ -2,7 +2,7 @@
   
   https://www.cnblogs.com/mfrank/p/11260355.html 
   上面这个连接的博主写的博客是非常的美观，他的gitHub代码示例(https://github.com/MFrank2016/delayed-queue-demo)，
-  但是有一些坑被我踩了，特此写了这个笔记，给其他学习的小火把伴少走弯路
+  但是有一些坑被我踩了，特此写了这个笔记，给其他学习的小伙伴少走弯路
   
   https://blog.csdn.net/sinat_41832255/article/details/104480842
   https://www.cnblogs.com/haixiang/p/10966985.html
